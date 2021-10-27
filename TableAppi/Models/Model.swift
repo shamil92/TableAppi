@@ -5,34 +5,7 @@
 //  Created by Шамиль Каммаев on 06.05.2021.
 //
 
-import Foundation
-
-
-//// MARK: - WelcomeElement
-//struct WelcomeElement: Codable {
-//
-//    let quoteID: Int
-//    let quote: String
-//    let author: String
-//    let series: String
-//
-//    enum CodingKeys: String, CodingKey {
-//        case quoteID = "quote_id"
-//        case quote = "quote"
-//        case author = "author"
-//        case series = "series"
-//    }
-//}
-//
-////enum Series: String, Codable {
-////    case betterCallSaul = "Better Call Saul"
-////    case breakingBad = "Breaking Bad"
-////}
-//
-//typealias Welcome = [WelcomeElement]
-
-
-
+import UIKit
 
 
 // MARK: - Welcome
@@ -64,6 +37,3 @@ struct Datum: Decodable {
         case photo = "photo"
     }
 }
-
-
-
